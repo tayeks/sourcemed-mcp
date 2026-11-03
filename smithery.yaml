@@ -1,0 +1,10 @@
+# Smithery configuration for the SourceMed MCP server.
+# The server is a local stdio server (Python). No API key or account is
+# required — it reads SourceMed's public endpoints only.
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    properties: {}
+  commandFunction: |-
+    (config) => ({ command: 'python', args: ['server.py'], env: {} })
