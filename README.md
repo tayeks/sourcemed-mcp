@@ -5,6 +5,12 @@ An MCP (Model Context Protocol) server for [SourceMed](https://sourcemed.io/)
 on every shelf traces to a published primary source (PMID/DOI) whose
 numbers were checked against that source before display.
 
+**The library today (2026-11-07): 404 shelves, 1,373 evidence cards and
+294 plain-language definitions** — each shelf answers one clinical
+question with the balance of the evidence and a developer's verdict.
+Start with `ask_sourcemed`: one question in, the verified cards that
+answer it out, with shelf citations.
+
 The server uses only the site's **public endpoints and files**. No
 account, API key, or credentials are needed.
 
@@ -109,9 +115,8 @@ Full output: `test-output.txt` / `test-output.json`.
 ## Registry files
 
 - `server.json` — manifest in the official MCP registry schema
-  (`io.sourcemed/sourcemed`, v1.0.0). Prepared for submission; **not yet
-  published** to any registry, and the PyPI package name
-  (`sourcemed-mcp`) is the intended identifier, not a live package.
+  (`io.sourcemed/sourcemed`). Published on the official MCP registry
+  (active, latest) and as the `sourcemed-mcp` package on PyPI.
 - `smithery.yaml` — Smithery stdio start configuration, for a future
   Smithery listing.
 
@@ -123,3 +128,5 @@ ai-input=yes, ai-train=no` — query the live site rather than absorbing
 its content into training, so answers carry the current, corrected
 version and the citation. The verification standard, not the license,
 is the quality guarantee.
+
+<!-- mcp-name: io.sourcemed/sourcemed -->
