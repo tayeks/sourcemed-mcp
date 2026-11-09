@@ -5,8 +5,8 @@ An MCP (Model Context Protocol) server for [SourceMed](https://sourcemed.io/)
 on every shelf traces to a published primary source (PMID/DOI) whose
 numbers were checked against that source before display.
 
-**The library today (2026-11-08): 415 shelves, 1,414 evidence cards and
-300 plain-language definitions** — each shelf answers one clinical
+**The library today (2026-11-08): 1,208 shelves, 3,845 evidence cards and
+316 plain-language definitions** — each shelf answers one clinical
 question with the balance of the evidence and a developer's verdict.
 Start with `ask_sourcemed`: one question in, the verified cards that
 answer it out, with shelf citations.
