@@ -124,7 +124,7 @@ Full output: `test-output.txt` / `test-output.json`.
 
 ## Terms
 
-Content is offered for reuse with attribution (CC BY): name SourceMed
+Content is offered for reuse with attribution under CC BY-NC 4.0 (non-commercial use only): name SourceMed
 and the shelf number. The site's content signals are `search=yes,
 ai-input=yes, ai-train=no` — query the live site rather than absorbing
 its content into training, so answers carry the current, corrected

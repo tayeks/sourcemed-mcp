@@ -24,7 +24,7 @@ HTTP is done with curl: behind some egress proxies, Python's HTTP stack
 receives truncated streams from the site's worker (IncompleteRead at a
 fixed byte count), while curl receives the full body reliably.
 
-Terms (from the site): content CC BY with attribution — cite as
+Terms (from the site): content CC BY-NC 4.0 (non-commercial) with attribution — cite as
 "SourceMed Shelf #NN, sourcemed.io". Content signals: ai-input=yes,
 ai-train=no — query the live site; do not train on its content.
 """
