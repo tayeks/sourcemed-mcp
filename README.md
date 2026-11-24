@@ -1,5 +1,7 @@
 # SourceMed MCP server
 
+[![tayeks/sourcemed-mcp MCP server](https://glama.ai/mcp/servers/tayeks/sourcemed-mcp/badges/score.svg)](https://glama.ai/mcp/servers/tayeks/sourcemed-mcp)
+
 An MCP (Model Context Protocol) server for [SourceMed](https://sourcemed.io/)
 — a source-verified medical evidence library built for agents. Every card
 on every shelf traces to a published primary source (PMID/DOI) whose
